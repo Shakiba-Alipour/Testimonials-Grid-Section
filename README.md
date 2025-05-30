@@ -4,6 +4,6 @@ This is a solution to the [Testimonials grid section challenge on Frontend Mento
 
 ## Live Version
 
-You can check out the live version [here](https://shakiba.dev/Testimonial-Grid-Section)
+You can check out the live version [here](https://shakiba.dev/Testimonials-Grid-Section)
 
 ![](./preview.jpg)
