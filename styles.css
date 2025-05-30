@@ -19,13 +19,19 @@ html {
 }
 
 body {
-  background: linear-gradient(to right, var(--Grey100), var(--Grey200));
+  /* background: linear-gradient(to right, var(--Grey100), var(--Grey200)); */
+  background-color: var(--Grey100);
 }
 
 ul {
   list-style: none;
   padding: 2rem;
-  /* color transitions */
+}
+
+@media screen and (min-sidth: 701px) {
+  ul {
+    display: grid;
+  }
 }
 
 .testimonial {
@@ -33,6 +39,7 @@ ul {
   margin: 1rem;
   border-radius: 0.5rem;
   color: var(--White);
+  box-shadow: 2rem 3rem 1rem var(--Grey200);
 }
 
 ul li:nth-child(1) {
